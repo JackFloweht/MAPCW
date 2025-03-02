@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Fan Art</title>
+    <style>
+        :root {
+            --cell-size: 90px;
+            --gap-size: 1px;
+        }
+
+        body {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            background-color: #ecf0f1;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            padding: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-grid {
+            display: grid;
+            gap: var(--gap-size);
+            grid-template-columns: repeat(19, var(--cell-size));
+            grid-template-rows: repeat(19, var(--cell-size));
+            margin: 0 auto;
+        }
+
+        .map-cell {
+            width: var(--cell-size);
+            height: var(--cell-size);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        /* Estilo para debug */
+        .map-cell::after {
+            content: attr(data-emoji);
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            font-size: 12px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="text-block">
+            <p>Chat Wars World Map<br> Current online: <b>1261</b></p>
+            <p> • #1 🇮🇲Red Castle <b>90</b> 28.8% • #2 🇲🇴Green Castle <b>79</b> 25.3%<br> • #3 🇻🇦Yellow Castle <b>75</b> 24.0% • #4 🇪🇺Blue Castle <b>68</b> 21.8%</p>
+            <p><a href="https://t.me/ChatWarsBot">@ChatWarsBot</a></p>
+        </div>
+    <div class="map-grid">
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🛖</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+                
+
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">⛺️</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">⛲️</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌳</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">⛲️</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">⛺️</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏰</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🛖</div>
+
+
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🗼</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏰</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗼</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+                
+
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🕳</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌳</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🛖</div>
+<div class="map-cell">🏛</div>
+<div class="map-cell">⛺️</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌳</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🌻</div>
+
+
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏟</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+
+
+
+
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🗼</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏰</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗼</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+
+
+<div class="map-cell">🛖</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏰</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">⛺️</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">⛲️</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌳</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">⛲️</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+
+
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">⛺️</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🔥</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🗿</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🏔</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🛖</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌻</div>
+<div class="map-cell">🌲</div>
+<div class="map-cell">🌲</div>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const terrainTextures = {
+        '🌲': '1.png',
+        '🏔': '14.png',
+        '🌻': '5.png',
+        '🏛': '11.png',
+        '🔥': '8.png',
+        '🛖': '4.png',
+        '⛲️': '6.png',
+        '⛺️': '10.png',
+        '🕳': '9.png',
+        '🏟': '12.png',
+        '🗼': '15.png',
+        '🏰': '16.png',
+        '🗿': '7.png',
+        '🌳': '17.png',
+    };
+
+    const basePath = './';
+    const defaultTexture = '5.png';
+
+    document.querySelectorAll('.map-cell').forEach(cell => {
+        // Obtener el emoji del contenido textual
+        const emoji = cell.textContent.trim(); 
+        const texture = terrainTextures[emoji] || defaultTexture;
+        cell.style.backgroundImage = `url('${basePath}${texture}')`;
+        
+        // Limpiar el contenido del emoji después de cargar la imagen
+        cell.textContent = '';
+
+        // Efecto hover
+        cell.addEventListener('mouseenter', () => {
+            cell.style.transform = 'scale(1.1)';
+            cell.style.zIndex = '1';
+        });
+        
+        cell.addEventListener('mouseleave', () => {
+            cell.style.transform = 'scale(1)';
+            cell.style.zIndex = '0';
+        });
+    });
+});
+</script>
+</body>
+</html>
